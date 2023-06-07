@@ -38,7 +38,11 @@ procrw(0x01432AFE,SK100M,1,1);
 procrw(0x0142FB3F,SK100N,1,1);
 procrw(0x01432B2A,SK100O,1,1);
 procrw(0x01430AFB,SK100P,1,1);
-procrw(0x01DB5417,SK100Q,1,1);}
+procrw(0x01DB5417,SK100Q,1,1);
+procrw(0x012FEC25,SK100R,1,1);
+procrw(0x012FF414,SK100S,1,1);
+procrw(0x012FEB2F,SK100T,7,1);
+procrw(0x012FED77,SK100U,425,1);}
 scePthreadExit(NULL);
 return NULL;}
 int32_t attr_module_hidden module_start(size_t argc,const void *args){
