@@ -17,6 +17,7 @@
 
 - Modifies Sekiro Shadows Die Twice a FromSoftware game before boot.
 - Activates a way to enable the overworld debug camera with combo.
+- Redirects lock on target button to take control of an entity.
 
 ## Overworld debug camera
 
@@ -30,6 +31,25 @@ or press it indefinately to unfreeze everything.
 
 You can quit the debug camera by pressing triangle\
 button while the left joystick is pressed down.
+
+## Enemy control manipulation
+
+In order to takeover the control of an entity you have to\
+hold down right joystick as if were trying to lock on it.
+
+By the moment you lock on the target the system will\
+pass over the controls for manipulating the enemy AI\
+Be aware due to the nature of how this mod works you\
+will not be able to lock on target normally anymore.
+
+You can get back to the default entity you were in control\
+by performing the same actions to manipulate other entities.
+
+## Known Bugs and Issues
+
+Should be mentioned for your own sanity to make sure of turning off the lock-on and\
+lock on target from the options menu to prevent passing back and forth of controls.\
+Additionally do not wander too far from your default entity or you will get despawned.
 
 ## Requirements
 
@@ -49,9 +69,8 @@ button while the left joystick is pressed down.
 
 ## Consider donating
 
-- [Ko-fi](https://ko-fi.com/stagvant)
-- [Patreon](https://www.patreon.com/stagvant)
-- [Buy me a Coffee](https://www.buymeacoffee.com/stagvant)
+- [Option1](https://ko-fi.com/stagvant)
+- [Option2](https://buymeacoffee.com/stagvant)
 
 ## License
 
