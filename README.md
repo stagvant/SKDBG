@@ -18,6 +18,8 @@
 - Modifies Sekiro Shadows Die Twice a FromSoftware game before boot.
 - Activates a way to enable the overworld debug camera with combo.
 - Redirects lock on target button to take control of an entity.
+- Activates developer menu which grants more freedom.
+- Additionally framepacing issues were fixed.
 
 ## Overworld debug camera
 
@@ -54,6 +56,8 @@ Additionally do not wander too far from your default entity or you will get desp
 ## Requirements
 
 - [Goldhen 2.3+](https://github.com/Goldhen/Goldhen) running on a Playstation4 system
+- [Fonts and shaders](https://drive.proton.me/urls/99K883B7XG#5L6jlq0yE3yw) for displaying developer menu
+- Knowledge on how to make a backup copy of a game
 - Knowledge on how to setup a plugin to run properly
 
 ## Toolchains used
