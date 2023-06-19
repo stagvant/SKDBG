@@ -24,17 +24,21 @@
 ## Overworld debug camera
 
 In order to activate the debug camera you have to press\
-triangle button while the left joystick is pressed down.
+triangle button while the left joystick is pressed down.\
+Developer menu assists on pausing current game runtime.\
+By pressing the upper left of the touchpad activates it.\
+Navigating to [SYSTEM] option and press circle.\
+![SK1](https://github.com/stagvant/SKDBG/assets/131619524/6b0c433a-c693-4d8d-aab8-fa823a6c1e96)\
+Then navigate to [MoveMapStep] and press circle.\
+![SK2](https://github.com/stagvant/SKDBG/assets/131619524/81f54941-800d-41bd-81df-1725c8d2bb3d)\
+Finally navigate to Pause and switch from Off to On.\
+![SK3](https://github.com/stagvant/SKDBG/assets/131619524/21c325e6-b5ca-4992-80a3-6dc0e5fb3a12)\
+Congratulations you managed to pause the current session!\
+Additionally all entities will freeze while pause is active.\
+By selecting skip option and pressing circle will allow one\
+to step through a small number of frames till freezes again.
 
-This way it will detach camera from the character and\
-freeze everything at place. While using debug camera\
-you can press square to make a frame by frame step\
-or press it indefinately to unfreeze everything.
-
-You can quit the debug camera by pressing triangle\
-button while the left joystick is pressed down.
-
-## Enemy control manipulation
+## Entity manipulation
 
 In order to takeover the control of an entity you have to\
 hold down right joystick as if were trying to lock on it.
@@ -44,8 +48,8 @@ pass over the controls for manipulating the enemy AI\
 Be aware due to the nature of how this mod works you\
 will not be able to lock on target normally anymore.
 
-You can get back to the default entity you were in control\
-by performing the same actions to manipulate other entities.
+You can get back to the initial entity you\
+controlled by holding down left joystick.
 
 ## Known Bugs and Issues
 
@@ -62,14 +66,15 @@ Additionally do not wander too far from your default entity or you will get desp
 
 ## Toolchains used
 
-- [LLVM 10](https://llvm.org/)
+- [LLVM 10](https://github.com/llvm/llvm-project)
 - [GoldHEN_Plugins_SDK](https://github.com/GoldHEN/GoldHEN_Plugins_SDK)
 - [OpenOrbis-PS4-Toolchain](https://github.com/OpenOrbis/OpenOrbis-PS4-Toolchain)
 
-## Credits
+## Toolchain authors
 
-- [Everyone at OpenOrbis Team](https://github.com/OpenOrbis)
-- [Everyone at Goldhen Team](https://github.com/Goldhen)
+- [The LLVM Team](https://github.com/llvm)
+- [The Goldhen Team](https://github.com/Goldhen)
+- [The OpenOrbis Team](https://github.com/OpenOrbis)
 
 ## Consider donating
 
